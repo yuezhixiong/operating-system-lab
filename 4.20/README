@@ -1,0 +1,14 @@
+The Makefile that comes with this problem creates all necessary executables.
+
+Simply enter
+
+	make all
+
+and then run the test script by entering
+
+	./testpid
+
+You may possibly see the message PID ALREADY IN USE. However, if you do 
+it may be due to the fact that students have not created a thread-safe
+technique for allocating pids. Chapter 5 contains an exercise which creates
+a thread-safe pid manager.
