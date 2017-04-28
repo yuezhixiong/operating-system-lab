@@ -3,3 +3,5 @@ Source code of some Programming Problems from Operating System Concepts 9th edit
 Hope these help :)
 
 The folder names are corresponding to question numbers of Operating System Concepts 9th edition.
+
+Also, some labs and tutorials under linux environment are included.
