@@ -9,6 +9,8 @@ int semctl(int semid, int semnum, int cmd, union semun arg)
 int semop(int semid, struct sembuf *sops, unsigned nsops)
 
 
+Which you may concern:
+
 //p opt of semaphore
 
 struct sembuf sem_buf_p = {0, -1, SEM_UNDO};
@@ -16,7 +18,7 @@ struct sembuf sem_buf_p = {0, -1, SEM_UNDO};
 semop(sem_id, &sem_buf_p, 1);
 
 
-//p opt of semaphore
+//v opt of semaphore
 
 struct sembuf sem_buf_v = {0, 1, SEM_UNDO};
 
